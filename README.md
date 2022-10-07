@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<h1 align="center">Portfolio</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hamomgs/portfolio?color=%2304D361" />
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/hamomgs/portfolio" />
+  
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hamomgs/portfolio" />
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen" />
+</p>
 
-In the project directory, you can run:
+<h4 align="center">Status: Building...</h4>
 
-### `npm start`
+## 💻 About The Project
+[Vai na Web](https://vainaweb.com.br) Personal portfolio challenge using ReactJs.
+<!-- You can see the demo by clicking [here](https://portfolio-hamomgs.vercel.app/). -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ### Mobile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://user-images.githubusercontent.com/88857655/184238954-436867d7-f2e3-400d-949a-c9e9f4f3803a.png" alt="mobile version" width="300px" />
 
-### `npm test`
+### Web
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://user-images.githubusercontent.com/88857655/184235383-96e96bce-a51a-49ea-9f5e-746930d208b0.png" alt="web version" width="800px" /> -->
 
-### `npm run build`
+## 🚀 Pre-requisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org) installed on your computer in order to build this app. Also it's nice to have an editor to work with code like [VSCode](https://code.visualstudio.com/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎲 Building
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone the project and access the folder
+$ git clone https://github.com/hamomgs/portfolio.git
+$ cd portfolio
 
-### `npm run eject`
+# Install the dependencies
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Start
+$ npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [JavaScript](https://devdocs.io/javascript/)
+- [React](https://pt-br.reactjs.org/)
+- [Styled-Components](https://styled-components.com)
+- [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+- [React Icons](https://react-icons.github.io/react-icons)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 License
 
-## Learn More
+This project is under the license [MIT](https://github.com/hamomgs/portfolio/blob/main/LICENCE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Coded with ❤ by Hamom Silva 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/hamomgs/)
