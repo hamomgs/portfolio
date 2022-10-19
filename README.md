@@ -14,15 +14,34 @@
 
 ## 💻 About The Project
 [Vai na Web](https://vainaweb.com.br) Personal portfolio challenge using ReactJs.
-<!-- You can see the demo by clicking [here](https://portfolio-hamomgs.vercel.app/). -->
+You can see the demo by clicking [here](https://portfolio-hamomgs.vercel.app/).
 
 <!-- ### Mobile
 
-<img src="https://user-images.githubusercontent.com/88857655/184238954-436867d7-f2e3-400d-949a-c9e9f4f3803a.png" alt="mobile version" width="300px" />
+<img src="" alt="mobile version" width="300px" />
 
 ### Web
 
-<img src="https://user-images.githubusercontent.com/88857655/184235383-96e96bce-a51a-49ea-9f5e-746930d208b0.png" alt="web version" width="800px" /> -->
+<img src="" alt="web version" width="800px" /> -->
+
+## ✨ Features
+
+- [X] SideMenu
+    - [X] Routes Link
+    - [X] Desktop version
+    - [X] Mobile version
+    - [X] Menu Hamburger
+    - [X] Logo
+- [ ] Routes
+    - [X] Home
+    - [ ] About
+    - [X] Skills
+    - [X] Projects
+    - [X] Contact
+- [X] Global
+    - [X] Dark/Light Mode
+    - [X] Language Switcher
+    - [X] Theme Color Switcher
 
 ## 🚀 Pre-requisites
 
@@ -49,6 +68,9 @@ $ npm start
 - [Styled-Components](https://styled-components.com)
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
 - [React Icons](https://react-icons.github.io/react-icons)
+- [React i18next](https://react.i18next.com/)
+- [Tag Cloud](https://www.npmjs.com/package/TagCloud)
+- [EmailJS](https://www.emailjs.com/)
 
 ## 📝 License
 
