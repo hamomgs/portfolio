@@ -69,7 +69,8 @@ export default function NavigationMenu({ isDark }) {
       <Routes>
         <Route path='*' element={<Navigate replace to='/home' />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/abou' element={<About />} />
+        <Route path='/about' element={<Navigate replace to='/home' />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/projects' element={<Projects isDark={isDark} />} />
         <Route path='/contact' element={<Contact />} />

@@ -36,3 +36,43 @@ export const Title = styled.h2`
     background-color: var(--highlightColor);
   }
 `
+
+export const Container = styled.div`
+  display: flex;
+  gap: 20px;
+  margin-top: 90px;
+
+  p {
+    /* width: 40%; */
+  }
+`
+
+export const InfoContainer = styled.div`
+  width: 50%;
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  li {
+    list-style: inside;
+  }
+
+  button {
+    padding: 12px 35px;
+    color: #fff;
+    border-radius: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: var(--highlightColor);
+  }
+`
+
+export const Test = styled.div`
+  width: 340px;
+  height: 340px;
+  background-color: ${({ theme }) => theme.secondaryBgColor};
+`
