@@ -1,0 +1,28 @@
+{
+  "translation": {
+    "welcome": "Welcome",
+    "flag": "flag",
+    "language": "Language",
+    "switchLightMode": "Switch to light mode",
+    "switchDarkMode": "Switch to dark mode",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "hiThere": "HI THERE! I'M",
+    "homeHelloTitle": "<1>Hamom</1> Silva",
+    "homeDescription": "A <1>Frontend Web Developer</1> with a curious mind who enjoys solving a complex and challenging problem, constantly looking for new knowledge.",
+    "moreAboutMe": "More About Me",
+    "themeColors": "Theme Colors",
+    "changeLanguage": "Change Language",
+    "changeColor": "Change Theme Color",
+    "sendBtn": "Send Message",
+    "name": "Your Name*",
+    "email": "Your Email*",
+    "message": " Your Message*",
+    "subject": "Subject*",
+    "openSettings": "Open Settings",
+    "closeSettings": "Close Settings"
+  }
+}

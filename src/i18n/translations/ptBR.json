@@ -1,0 +1,28 @@
+{
+  "translation": {
+    "welcome": "Bem-vindo",
+    "flag": "bandeira",
+    "language": "Idioma",
+    "switchLightMode": "Trocar para tema claro",
+    "switchDarkMode": "Trocar para tema escuro",
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "hiThere": "OLÁ! EU SOU O",
+    "homeHelloTitle": "Olá, meu nome é <1>Hamom Silva</1>",
+    "homeDescription": "Um <1>Desenvolvedor Web Frontend</1> com uma mente curiosa que gosta de resolver um problema complexo e desafiador, constantemente em busca de novos conhecimentos.",
+    "moreAboutMe": "Mais Sobre Mim",
+    "themeColors": "Cores do Tema",
+    "changeLanguage": "Mudar Idioma",
+    "changeColor": "Mudar Cor do Tema",
+    "sendBtn": "Enviar Mensagem",
+    "name": "Seu Nome*",
+    "email": "Seu Email*",
+    "message": "Sua Mensagem*",
+    "subject": "Assunto*",
+    "openSettings": "Abrir Configurações",
+    "closeSettings": "Fechar Configurações"
+  }
+}
