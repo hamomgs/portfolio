@@ -12,3 +12,27 @@ export const AboutSection = styled.section`
     min-height: 100vh;
   }
 `
+
+export const Title = styled.h2`
+  position: relative;
+  font-size: 36px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--highlightColor);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 25px;
+    height: 4px;
+    background-color: var(--highlightColor);
+  }
+`

@@ -7,15 +7,65 @@ import css from '../../assets/techIcons/css3.svg'
 import git from '../../assets/techIcons/git.svg'
 import javascript from '../../assets/techIcons/javascript.svg'
 import vscode from '../../assets/techIcons/vscode.svg'
-import github from '../../assets/techIcons/github.svg'
 import mysql from '../../assets/techIcons/mysql.svg'
-import trello from '../../assets/techIcons/trello.svg'
-import npm from '../../assets/techIcons/npm.svg'
+import heroku from '../../assets/techIcons/heroku.svg'
+import oracle from '../../assets/techIcons/oracle.svg'
 import sComponents from '../../assets/techIcons/styled-components.png'
+import windows from '../../assets/techIcons/windows.svg'
+import api from '../../assets/techIcons/api.svg'
 
 export default function Skills() {
   const { t } = useTranslation()
-  const images = [html, css, javascript, react, sComponents, git, github, npm, mysql, vscode, trello ]
+  const skills = [
+    {
+      name: 'HTML',
+      image: html
+    },
+    {
+      name: 'CSS',
+      image: css
+    },
+    {
+      name: 'JavaScript',
+      image: javascript
+    },
+    {
+      name: 'React',
+      image: react
+    },
+    {
+      name: 'Styled C.',
+      image: sComponents
+    },
+    {
+      name: 'REST API',
+      image: api
+    },
+    {
+      name: 'Git',
+      image: git
+    },
+    {
+      name: 'Oracle SQL',
+      image: oracle
+    },
+    {
+      name: 'mySql',
+      image: mysql
+    },
+    {
+      name: 'Heroku',
+      image: heroku
+    },
+    {
+      name: 'VS Code',
+      image: vscode
+    },
+    {
+      name: 'Windows',
+      image: windows
+    }
+  ]
 
   useEffect(() => {
     document.querySelectorAll('nav>ul>li')
@@ -30,14 +80,15 @@ export default function Skills() {
 
   return (
     <S.SkillsSection>
-      <h2>{t('skills')}</h2>
-      <S.Container>
-        {images.map((item, index) => (
+      <S.Title>{t('skills')}</S.Title>
+      <S.SkillsContainer>
+        {skills.map((item, index) => (
           <S.IconContainer key={index}>
-            <img src={item} alt="" />
+            <img src={item.image} alt="" />
+            <p>{item.name}</p>
           </S.IconContainer>
         ))}
-      </S.Container>
+      </S.SkillsContainer>
     </S.SkillsSection>
   )
 }

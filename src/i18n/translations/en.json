@@ -23,6 +23,7 @@
     "message": " Your Message*",
     "subject": "Subject*",
     "openSettings": "Open Settings",
-    "closeSettings": "Close Settings"
+    "closeSettings": "Close Settings",
+    "details": "Details"
   }
 }

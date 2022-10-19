@@ -13,13 +13,37 @@ export const ProjectsSection = styled.section`
   }
 `
 
+export const Title = styled.h2`
+  position: relative;
+  font-size: 36px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--highlightColor);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 25px;
+    height: 4px;
+    background-color: var(--highlightColor);
+  }
+`
+
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin-top: 30px;
+  margin-top: 90px;
 `
 
 export const ProjectContainer = styled.div`

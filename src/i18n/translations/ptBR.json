@@ -23,6 +23,7 @@
     "message": "Sua Mensagem*",
     "subject": "Assunto*",
     "openSettings": "Abrir Configurações",
-    "closeSettings": "Fechar Configurações"
+    "closeSettings": "Fechar Configurações",
+    "details": "Detalhes"
   }
 }

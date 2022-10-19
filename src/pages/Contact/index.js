@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import emailjs from '@emailjs/browser'
 import * as S from './styles.js'
-import { SiGmail } from 'react-icons/si'
-import { BsLinkedin, BsDiscord, BsInstagram } from 'react-icons/bs'
+// import { SiGmail } from 'react-icons/si'
+// import { BsLinkedin, BsDiscord, BsInstagram } from 'react-icons/bs'
 
 
 export default function Contact() {
@@ -45,24 +45,20 @@ export default function Contact() {
           <S.SubmitBtn type='submit' value={t('sendBtn')} />
         </S.Form>
 
-        <S.SocialMedias>
+        {/* <S.SocialMedias>
           <a href='mailto:hamomgomer947@gmail.com'>
             <SiGmail />
-            hamomgomer947@gmail.com
           </a>
           <a href='https://www.linkedin.com/in/hamomgs/'>
             <BsLinkedin />
-            @hamomgs
           </a>
           <a href='https://discord.com/users/435434415880011777'>
             <BsDiscord />
-            hamomgs#0719
           </a>
           <a href='https://www.instagram.com/hamomgs/'>
             <BsInstagram />
-            @hamomgs
           </a>
-        </S.SocialMedias>
+        </S.SocialMedias> */}
       </S.Container>
     </S.ContactSection>
   )

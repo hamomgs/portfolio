@@ -3,6 +3,7 @@ import * as S from './styles.js'
 import { HiOutlineX } from 'react-icons/hi'
 import { CgWebsite } from 'react-icons/cg'
 import { BsGithub } from 'react-icons/bs'
+import { useTranslation } from 'react-i18next'
 
 export default function ProjectModal({
   name,
@@ -13,6 +14,7 @@ export default function ProjectModal({
   repository,
   setModalIndex
 }) {
+  const { t } = useTranslation()
 
   const handleOutsideClick = e => {
     if(e.target.id === 'modal') {
@@ -38,7 +40,7 @@ export default function ProjectModal({
         </S.CloseBtn>
         <S.Title>{name}</S.Title>
         <S.P><span>⚙ Tech Stack:</span> {techStack}</S.P>
-        <S.P><span>📄 Details:</span> {description}</S.P>
+        <S.P><span>📄 {t('details')}:</span> {description}</S.P>
         <S.LinksContainer>
           <S.Link href={demo} target='_blank'>
             <CgWebsite />

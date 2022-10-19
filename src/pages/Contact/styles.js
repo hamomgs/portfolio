@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const ContactSection = styled.section`
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
-  max-width: 1000px;
+  gap: 40px; */
+  max-width: 1120px;
   min-height: 90vh;
   transition: all 0.3s ease;
   margin: auto;
@@ -17,7 +17,29 @@ export const ContactSection = styled.section`
   }
 `
 
-export const Title = styled.h2``
+export const Title = styled.h2`
+  position: relative;
+  font-size: 36px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--highlightColor);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 25px;
+    height: 4px;
+    background-color: var(--highlightColor);
+  }
+`
 
 export const Container = styled.div`
   display: flex;
@@ -29,14 +51,11 @@ export const Form = styled.form`
   flex-direction: column;
   gap: 30px;
   width: 100%;
+  margin-top: 90px;
 
   input {
     border: solid 1px ${({ theme }) => theme.tertiaryBgColor};
     border-radius: 10px;
-  }
-
-  @media (min-width: 1200px) {
-    width: 50%;
   }
 `
 

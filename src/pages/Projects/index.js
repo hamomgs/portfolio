@@ -104,7 +104,7 @@ export default function Projects({ isDark }) {
 
   return (
     <S.ProjectsSection>
-      <h2>{t('projects')}</h2>
+      <S.Title>{t('projects')}</S.Title>
       <S.Container isDark={isDark}>
         {projectsInfo.map((item, index) => (
           <S.ProjectContainer key={index}>

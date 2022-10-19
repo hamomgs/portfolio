@@ -76,4 +76,4 @@ $ npm start
 
 This project is under the license [MIT](https://github.com/hamomgs/portfolio/blob/main/LICENCE).
 
-Coded with ❤ by Hamom Silva 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/hamomgs/)
+Developed with ❤ by Hamom Silva 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/hamomgs/)

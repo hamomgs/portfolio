@@ -19,7 +19,7 @@ export default function About({ isOpen }) {
 
   return (
     <S.AboutSection isOpen={isOpen}>
-      <h2>{t('about')}</h2>
+      <S.Title>{t('about')}</S.Title>
     </S.AboutSection>
   )
 }
